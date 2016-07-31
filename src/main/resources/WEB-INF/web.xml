@@ -7,11 +7,11 @@
 
     <servlet>
         <servlet-name>add</servlet-name>
-        <servlet-class>com.goit.projects.todolist.AddTaskServlet</servlet-class>
+        <servlet-class>com.goit.projects.todolist.controllers.AddTaskServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>update</servlet-name>
-        <servlet-class>com.goit.projects.todolist.UpdateTaskServlet</servlet-class>
+        <servlet-class>com.goit.projects.todolist.controllers.UpdateTaskServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
